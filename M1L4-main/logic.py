@@ -16,6 +16,7 @@ class Pokemon:
 
         Pokemon.pokemons[pokemon_trainer] = self
 
+    
 
     # Метод для получения картинки покемона через API
     def get_img(self):
