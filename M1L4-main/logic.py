@@ -12,7 +12,7 @@ class Pokemon:
         self.img = self.get_img()
         self.name = self.get_name()
         self.hp = randint(100,300)
-        self.power = randint(20,60)
+        self.power = randint(20,80)
 
         Pokemon.pokemons[pokemon_trainer] = self
 
